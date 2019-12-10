@@ -1,3 +1,9 @@
+The paper is devoted to the problem of optimization of accompanying manufacturing in flexible or reconfigurable manufacturing systems. Using a set of obligatory products as an input, the initial problem is reduced to two interrelated subproblems: 1) for each product from the set of obligatory products, form a group of additional (accompanying) products that can be manufactured without changing the state of production, and 2) determine the order of manufacturing changeovers between the groups of additional products, as well as the ``points of entry and exit'' for each group. The subproblems are considered sequentially: the first subproblem is reduced to the maximum weight clique problem, the second -- to the cluster traveling salesman problem. Large-scale computational experiments were conducted to reveal the benefits of applying effective modern methods for solving both subproblems in comparison with the greedy solution (which models the rational actions of a human operator solving large accompanying manufacturing problems in short time).
+
+
+
+
+
 GLKH is a program for solving the Clustered Traveling Salesman Problem (CTSP).
 
 The code is distributed for research use. The author reserves all rights to the
